@@ -10,6 +10,7 @@ This project is based on our ECCV2022 paper.
     booktitle={European Conference on Computer Vision (ECCV)},
     year={2022}
 }
+```
 ## Installation
 This code is based on [ShapeInversion](https://github.com/junzhezhang/shape-inversion), [ChamferDistancePytorch](https://github.com/ThibaultGROUEIX/ChamferDistancePytorch), [PCN](https://github.com/wentaoyuan/pcn) and [pcl2pcl](https://github.com/xuelin-chen/pcl2pcl-gan-pub). Please follow the instruction to set up your own environment.
 ```
