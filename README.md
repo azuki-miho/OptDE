@@ -12,7 +12,7 @@ This project is based on our ECCV2022 paper.
 }
 ```
 ## Installation
-This code is based on [ShapeInversion](https://github.com/junzhezhang/shape-inversion), [ChamferDistancePytorch](https://github.com/ThibaultGROUEIX/ChamferDistancePytorch), [PCN](https://github.com/wentaoyuan/pcn) and [pcl2pcl](https://github.com/xuelin-chen/pcl2pcl-gan-pub). Please follow the instruction to set up your own environment.
+Please follow the instruction to set up your own environment.
 ```
 git clone git@github.com:azuki-miho/OptDE.git
 cd OptDE
@@ -29,3 +29,5 @@ For desentangled encoding training with CRN chair as source domain and 3D-FUTURE
 sh run.sh 0
 ```
 For other experiment setting, you can change the `REALDATA`, `VCLASS` and `RCLASS` variables in `run.sh`. If you want to change the log directory, please modify the `LOGDIR` in `run.sh`.
+## Acknowledgement
+This code is based on [ShapeInversion](https://github.com/junzhezhang/shape-inversion), [ChamferDistancePytorch](https://github.com/ThibaultGROUEIX/ChamferDistancePytorch), [PCN](https://github.com/wentaoyuan/pcn) and [pcl2pcl](https://github.com/xuelin-chen/pcl2pcl-gan-pub). The models used for partial and complete shape generation are from [3D-FUTURE](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-future), [ModelNet](modelnet.cs.princeton.edu). CRN and real-world point clouds are provided by [CRN](https://github.com/xiaogangw/cascaded-point-completion) and [pcl2pcl](https://github.com/xuelin-chen/pcl2pcl-gan-pub). If you find they are useful, please also cite them in your work. 
