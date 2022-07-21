@@ -141,7 +141,7 @@ class OptDE(object):
         if bool_gt:
             self.args.G_lrs = [2e-7, 1e-6, 1e-6, 2e-7]
             self.args.z_lrs = [9e-3, 2e-3, 1e-3, 1e-6]
-            self.iterations = [0, 0, 4, 1]
+            self.iterations = [0, 0, 2, 1]
             #self.iterations = [24, 8, 2, 4]
             #self.iterations = [12, 2, 1, 1]
             self.k_mask_k = [1, 1, 1, 1]
