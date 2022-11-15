@@ -2,6 +2,7 @@
 by Jingyu Gong*, Fengqi Liu*, Jiachen Xu, Min Wang, Xin Tan, Zhizhong Zhang, Ran Yi, Haichuan Song, Yuan Xie, Lizhuang Ma. (*=equal contribution) 
 
 <p align="center"> <img src="imgs/framework.png" width="80%"> </p>
+
 ## Introduction
 This project is based on our ECCV2022 paper.
 ```
