@@ -39,5 +39,11 @@ For optimization over disentangled encoding with CRN chair as source domain and 
 sh run_optimizer.sh 0
 ```
 For other experiment setting, you can change the `REALDATA`, `VCLASS` and `RCLASS` variables in `run_optimizer.sh`. If you want to change the log directory, please modify the `LOGDIR` in `run_optimizer.sh`.
+### Visualization
+For visualization of completion results, you should first install the [Mitsuba](http://www.mitsuba-renderer.org). The code is tested on [Mitsuba2](https://github.com/mitsuba-renderer/mitsuba2). After the installation, please change to the `./render' directory and change the `LOGDATE` in `run_render.sh`to log file name and run the followinng script:
+```
+sh run_render.sh
+```
+For other experiment setting, you can change the `REALDATA`, `RCLASS`, `RESULT_NAME`, `FINETUNE` or even `LOGDIR` accordingly.
 ## Acknowledgement
-This code is based on [ShapeInversion](https://github.com/junzhezhang/shape-inversion), [ChamferDistancePytorch](https://github.com/ThibaultGROUEIX/ChamferDistancePytorch), [PCN](https://github.com/wentaoyuan/pcn) and [pcl2pcl](https://github.com/xuelin-chen/pcl2pcl-gan-pub). The models used for partial and complete shape generation are from [3D-FUTURE](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-future), [ModelNet](modelnet.cs.princeton.edu). CRN and real-world point clouds are provided by [CRN](https://github.com/xiaogangw/cascaded-point-completion) and [pcl2pcl](https://github.com/xuelin-chen/pcl2pcl-gan-pub). If you find they are useful, please also cite them in your work. 
+This code is based on [ShapeInversion](https://github.com/junzhezhang/shape-inversion), [ChamferDistancePytorch](https://github.com/ThibaultGROUEIX/ChamferDistancePytorch), [PCN](https://github.com/wentaoyuan/pcn), [pcl2pcl](https://github.com/xuelin-chen/pcl2pcl-gan-pub) and [Mitsuba2PointCloudRenderer](https://github.com/tolgabirdal/Mitsuba2PointCloudRenderer). The models used for partial and complete shape generation are from [3D-FUTURE](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-future), [ModelNet](modelnet.cs.princeton.edu). CRN and real-world point clouds are provided by [CRN](https://github.com/xiaogangw/cascaded-point-completion) and [pcl2pcl](https://github.com/xuelin-chen/pcl2pcl-gan-pub). If you find they are useful, please also cite them in your work. 
