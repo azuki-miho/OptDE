@@ -40,7 +40,7 @@ sh run_optimizer.sh 0
 ```
 For other experiment setting, you can change the `REALDATA`, `VCLASS` and `RCLASS` variables in `run_optimizer.sh`. If you want to change the log directory, please modify the `LOGDIR` in `run_optimizer.sh`.
 ### Visualization
-For visualization of completion results, you should first install the [Mitsuba](http://www.mitsuba-renderer.org). The code is tested on [Mitsuba2](https://github.com/mitsuba-renderer/mitsuba2). After the installation, please change to the `./render` directory. Then, you need to change the `PATH_TO_MITSUBA2` to exectuable mitsuba and change the `LOGDATE` in `run_render.sh` to your log file name. Now, you can run the followinng script:
+For visualization of completion results, you should first install the [Mitsuba](http://www.mitsuba-renderer.org). The code is tested on [Mitsuba2](https://github.com/mitsuba-renderer/mitsuba2). After the installation, please change to the `./render` directory. Then, you need to change the `PATH_TO_MITSUBA2` to exectuable mitsuba and change the `LOGDATE` in `run_render.sh` to your log file name. Now, you can run the following script:
 ```
 sh run_render.sh
 ```
